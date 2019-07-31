@@ -68,6 +68,7 @@ public class TomcatServer {
                         HttpServletRequest httpServletRequest =createRequest();
                         HttpServletResponse httpServletResponse = createResponse();
 
+                        // 核心方法， servlet 的执行方法
                         httpServlet.service(httpServletRequest,httpServletResponse);
 
                         OutputStream outputStream = socket.getOutputStream();

@@ -27,7 +27,7 @@ public class ProjectLoader {
         Map<String, String> servletMapping = new HashMap<>();
 
         //项目路径
-        String webappPath ="D:\\work_public\\servletdemo\\out\\artifacts\\servletdemo_war_exploded\\WEB-INF";
+        String webappPath ="E:\\javaSrc\\xiangxue\\vip2_tomcat\\servletdemo\\out\\artifacts\\servletdemo_war_exploded\\WEB-INF";
 
         //JDK提供类加载器 URL
         URL classFile = new URL("file:"+webappPath+"\\classes\\");
